@@ -48,3 +48,14 @@ helloBtn2.addEventListener("click", function(){
   alert("We have saved your contacts!");
 });
 
+let addPBtn = document.querySelector("#btn-3");
+addPBtn.addEventListener("click", function(){
+  let article = document.querySelector("article");
+  let newParagraph = document.createElement("p");
+  newParagraph.textContent = "Explicabo, perspiciatis. Quasi explicabo dolores, facere temporibus cupiditate earum quos! Nobis, culpa. Aperiam dolor voluptates distinctio exercitationem in dolores nisi?";
+  article.append(newParagraph);
+  
+});
+
+let exampleBtn = document.querySelector("#example-1");
+let example1Paragraph = document.querySelector("#example-1-target");
