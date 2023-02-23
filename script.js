@@ -1,5 +1,9 @@
 let example = document.querySelector("#example-id");
 example.textContent += "@" ;
+example.style.backgroundColor = "red";
+example.style.color = "white";
+example.style.color = "tomato";
+
 let example1 = document.querySelector("p");
 example1.textContent = "gdggfgfg" +  example1;textContent
 let example2 =document.querySelector(".example-class");
